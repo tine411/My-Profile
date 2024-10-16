@@ -27,7 +27,7 @@ const Home = () => {
   return (
     <div style={fullScreenStyle}>
       <Container>
-        <h1 style={headerStyle}>Welcome to My Profile</h1>
+        <h1 style={headerStyle}>Welcome to My Profile!</h1>
         <p style={paragraphStyle}>This is my personal web app showcasing my skills, about me, and contact details.</p>
       </Container>
     </div>

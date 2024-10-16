@@ -19,7 +19,7 @@ const Skills = () => {
     marginBottom: '15px',
   };
 
-  const skillsList = ['Communication', 'Problem Solving', 'Time Management', 'Teamwork', 'Adaptability'];
+  const skillsList = ['Communication', 'Javascript', 'Time Management', 'React', 'CSS'];
 
   return (
     <div style={fullScreenStyle}>
