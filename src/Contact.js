@@ -24,12 +24,14 @@ const Contact = () => {
     backgroundColor: '#FFB6C1', // Light pink background
     color: '#343a40',
     padding: '20px',
+    fontFamily: 'Times New Roman, Times, serif' // Added font family
   };
 
   const headerStyle = {
     color: '#FF69B4',
     fontSize: '3rem',
     marginBottom: '15px',
+    fontFamily: 'Times New Roman, Times, serif' // Added font family
   };
 
   return (
@@ -44,6 +46,7 @@ const Contact = () => {
               value={name} 
               onChange={(e) => setName(e.target.value)} 
               placeholder="Enter your name" 
+              style={{ fontFamily: 'Times New Roman, Times, serif' }} // Added font family to input
             />
           </Form.Group>
           <Form.Group controlId="formEmail">
@@ -53,6 +56,7 @@ const Contact = () => {
               value={email} 
               onChange={(e) => setEmail(e.target.value)} 
               placeholder="Enter your email" 
+              style={{ fontFamily: 'Times New Roman, Times, serif' }} // Added font family to input
             />
           </Form.Group>
           <Form.Group controlId="formMessage">
@@ -63,6 +67,7 @@ const Contact = () => {
               onChange={(e) => setMessage(e.target.value)} 
               rows={3} 
               placeholder="Enter your message" 
+              style={{ fontFamily: 'Times New Roman, Times, serif' }} // Added font family to textarea
             />
           </Form.Group>
           <Button variant="primary" type="submit">Submit</Button>

@@ -22,7 +22,7 @@ function App() {
 
   return (
     <Router>
-      <div style={{ backgroundColor: '#d63384', minHeight: '100vh' }}>
+      <div style={{ backgroundColor: '#d63384', minHeight: '100vh', fontFamily: 'Times New Roman, Times, serif' }}>
         <Navbar bg="light" expand="lg">
           <Navbar.Brand
             href="/"

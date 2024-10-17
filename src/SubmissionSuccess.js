@@ -11,24 +11,28 @@ const SubmissionSuccess = () => {
     padding: '20px',
     borderRadius: '8px', // Optional: add some border radius for better appearance
     marginTop: '20px', // Optional: add some margin at the top
-    
+    fontFamily: 'Times New Roman, Times, serif' // Added font family
   };
 
   const headerStyle = {
     fontSize: '2.5rem', // Change font size for the header
     marginBottom: '10px',
     textAlign: 'center',
+    fontFamily: 'Times New Roman, Times, serif' // Added font family
   };
 
   const paragraphStyle = {
     fontSize: '1.7rem', // Change font size for the paragraph
     marginBottom: '15px',
+    fontFamily: 'Times New Roman, Times, serif' // Added font family
   };
   
   const listItemStyle = {
     fontSize: '1.5rem', // Change font size for list items
     marginBottom: '5px', // Optional: add margin between list items
+    fontFamily: 'Times New Roman, Times, serif' // Added font family
   };
+
   return (
     <Container style={containerStyle}>
       <h1 style={headerStyle}>Thank You, {formData.name}!</h1>
